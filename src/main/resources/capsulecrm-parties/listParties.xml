@@ -36,7 +36,7 @@
         <property name="uri.var.limit" expression="$func:limit"/>
         <script language="js">
             <![CDATA[
-         	var searchTerm = mc.getProperty('uri.var.searchTerm');
+            var searchTerm = mc.getProperty('uri.var.searchTerm');
             var email = mc.getProperty('uri.var.email');
             var tag = mc.getProperty('uri.var.tag');
             var lastModified = mc.getProperty('uri.var.lastModified');
