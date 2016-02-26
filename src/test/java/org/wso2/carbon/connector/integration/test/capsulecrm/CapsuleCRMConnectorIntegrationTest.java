@@ -47,7 +47,7 @@ public class CapsuleCRMConnectorIntegrationTest extends ConnectorIntegrationTest
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
 
-        init("capsulecrm-connector-1.0.0");
+        init("capsulecrm-connector-1.0.1-SNAPSHOT");
 
         esbRequestHeadersMap = new HashMap<String, String>();
         apiRequestHeadersMap = new HashMap<String, String>();
