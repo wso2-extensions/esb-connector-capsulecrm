@@ -17,14 +17,6 @@
 */
 package org.wso2.carbon.connector.integration.test.capsulecrm;
 
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.xpath.XPathExpressionException;
-
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.Base64;
 import org.testng.Assert;
@@ -33,6 +25,13 @@ import org.testng.annotations.Test;
 import org.wso2.connector.integration.test.base.ConnectorIntegrationTestBase;
 import org.wso2.connector.integration.test.base.RestResponse;
 import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.xpath.XPathExpressionException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CapsuleCRMConnectorIntegrationTest extends ConnectorIntegrationTestBase {
 
@@ -47,7 +46,7 @@ public class CapsuleCRMConnectorIntegrationTest extends ConnectorIntegrationTest
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
 
-        init("capsulecrm-connector-1.0.1-SNAPSHOT");
+        init("capsulecrm-connector-1.0.1");
 
         esbRequestHeadersMap = new HashMap<String, String>();
         apiRequestHeadersMap = new HashMap<String, String>();
