@@ -4,7 +4,7 @@
     "category": "Customer Relationship Management",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Capsule+CRM+Connector",
     "description": "The Capsule CRM connector allows you to access the Capsule CRM REST API through WSO2 ESB. Capsule CRM keeps track of the people and companies you do business with, opportunities in the pipeline and what needs to be done.",
-    "status": "Unsupported",
+    "status": "Active",
     "labels": [
         "connector"
     ],
